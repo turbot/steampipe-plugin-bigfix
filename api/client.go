@@ -174,11 +174,6 @@ func (c *Client) executeWithRetry(request func() (*resty.Response, error), maxRe
 	return resp, fmt.Errorf("request failed after %d attempts with status %d", maxRetries, resp.StatusCode())
 }
 
-// executeWithRetryDefault performs an HTTP request using the client's default retry settings
-func (c *Client) executeWithRetryDefault(request func() (*resty.Response, error)) (*resty.Response, error) {
-	return c.executeWithRetry(request, c.MaxRetries)
-}
-
 // executeWithRetryDefaultWithLimiter performs an HTTP request using the client's default retry settings with limiter tag
 func (c *Client) executeWithRetryDefaultWithLimiter(request func() (*resty.Response, error), limiterTag string) (*resty.Response, error) {
 	// Add limiter tag to the request
