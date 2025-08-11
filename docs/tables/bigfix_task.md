@@ -15,7 +15,6 @@ The `bigfix_task` table in Steampipe provides you with information about tasks m
 ## Examples
 
 ### Basic task information
-
 Discover the segments that provide details about tasks in your BigFix environment, including their titles and descriptions. This can be useful for auditing task execution and maintaining security compliance.
 
 ```sql+postgres
@@ -43,7 +42,6 @@ from
 ```
 
 ### Tasks by category
-
 Identify tasks by their category to understand the distribution of different task types in your environment.
 
 ```sql+postgres
@@ -71,7 +69,6 @@ order by
 ```
 
 ### Tasks with high severity
-
 Find tasks with high severity to understand critical security policies and identify potential risks.
 
 ```sql+postgres
@@ -105,7 +102,6 @@ order by
 ```
 
 ### Tasks with specific relevance
-
 Find tasks with specific relevance expressions to understand task targeting and identify potential issues.
 
 ```sql+postgres
@@ -135,7 +131,6 @@ where
 ```
 
 ### Tasks with computers
-
 Analyze tasks with their target computers to understand task scope and identify any targeting issues.
 
 ```sql+postgres
@@ -165,7 +160,6 @@ where
 ```
 
 ### Tasks by source
-
 Analyze tasks by their source to understand task origins and identify any missing or outdated content.
 
 ```sql+postgres
@@ -193,7 +187,6 @@ order by
 ```
 
 ### Tasks with default actions
-
 Examine default actions for tasks to understand task behavior and identify any misconfigurations.
 
 ```sql+postgres
@@ -219,7 +212,6 @@ where
 ```
 
 ### Recent tasks
-
 Find recently created or modified tasks to understand current task execution and identify any new security policies.
 
 ```sql+postgres
@@ -249,7 +241,6 @@ limit 10;
 ```
 
 ### Tasks with large download sizes
-
 Identify tasks with large download sizes to understand resource requirements and identify potential performance issues.
 
 ```sql+postgres

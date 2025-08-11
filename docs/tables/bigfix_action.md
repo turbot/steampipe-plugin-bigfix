@@ -15,7 +15,6 @@ The `bigfix_action` table in Steampipe provides you with information about actio
 ## Examples
 
 ### Basic action information
-
 Discover the segments that provide details about actions in your BigFix environment, including their titles and descriptions. This can be useful for auditing action execution and maintaining security compliance.
 
 ```sql+postgres
@@ -41,7 +40,6 @@ from
 ```
 
 ### Actions by category
-
 Identify actions by their category to understand the distribution of different action types in your environment.
 
 ```sql+postgres
@@ -69,7 +67,6 @@ order by
 ```
 
 ### Actions with specific relevance
-
 Find actions with specific relevance expressions to understand action targeting and identify potential issues.
 
 ```sql+postgres
@@ -97,7 +94,6 @@ where
 ```
 
 ### Actions with script commands
-
 Analyze actions with script commands to understand action behavior and identify any security concerns.
 
 ```sql+postgres
@@ -123,7 +119,6 @@ where
 ```
 
 ### Actions by source
-
 Analyze actions by their source to understand action origins and identify any missing or outdated content.
 
 ```sql+postgres
@@ -151,7 +146,6 @@ order by
 ```
 
 ### Actions with post-action behavior
-
 Examine post-action behavior for actions to understand action completion and identify any misconfigurations.
 
 ```sql+postgres
@@ -177,7 +171,6 @@ where
 ```
 
 ### Recent actions
-
 Find recently created or modified actions to understand current action execution and identify any new security policies.
 
 ```sql+postgres
@@ -207,7 +200,6 @@ limit 10;
 ```
 
 ### Actions with MIME fields
-
 Identify actions with MIME fields to understand content formatting and identify any issues.
 
 ```sql+postgres
@@ -233,7 +225,6 @@ where
 ```
 
 ### Actions with specific targets
-
 Find actions with specific targets to understand action scope and identify any targeting issues.
 
 ```sql+postgres

@@ -15,7 +15,6 @@ The `bigfix_property` table in Steampipe provides you with information about pro
 ## Examples
 
 ### Basic property information
-
 Discover the segments that provide details about properties in your BigFix environment, including their names and definitions. This can be useful for auditing configuration and maintaining system compliance.
 
 ```sql+postgres
@@ -39,7 +38,6 @@ from
 ```
 
 ### Properties by reservation status
-
 Identify properties by their reservation status to understand the distribution of reserved vs. custom properties in your environment.
 
 ```sql+postgres
@@ -67,7 +65,6 @@ order by
 ```
 
 ### Reserved properties
-
 Find reserved properties to understand system-defined properties and identify any customizations.
 
 ```sql+postgres
@@ -99,7 +96,6 @@ order by
 ```
 
 ### Custom properties
-
 Identify custom properties to understand user-defined configurations and identify any potential issues.
 
 ```sql+postgres
@@ -131,7 +127,6 @@ order by
 ```
 
 ### Properties with specific definitions
-
 Find properties with specific definitions to understand property usage and identify any misconfigurations.
 
 ```sql+postgres
@@ -159,7 +154,6 @@ where
 ```
 
 ### Recent property modifications
-
 Find recently modified properties to understand current configuration changes and identify any new customizations.
 
 ```sql+postgres
@@ -193,7 +187,6 @@ limit 10;
 ```
 
 ### Properties by name pattern
-
 Search for properties by name pattern to understand property naming conventions and identify related configurations.
 
 ```sql+postgres
@@ -225,7 +218,6 @@ order by
 ```
 
 ### Properties with long definitions
-
 Identify properties with long definitions to understand complex configurations and identify any potential issues.
 
 ```sql+postgres
@@ -259,7 +251,6 @@ limit 10;
 ```
 
 ### Properties without definitions
-
 Find properties without definitions to identify potential configuration gaps and incomplete setups.
 
 ```sql+postgres

@@ -15,7 +15,6 @@ The `bigfix_role` table in Steampipe provides you with information about roles m
 ## Examples
 
 ### Basic role information
-
 Discover the segments that provide details about roles in your BigFix environment, including their names and permissions. This can be useful for auditing access control and maintaining security compliance.
 
 ```sql+postgres
@@ -41,7 +40,6 @@ from
 ```
 
 ### Roles by master operator status
-
 Identify roles by their master operator status to understand the distribution of administrative roles in your environment.
 
 ```sql+postgres
@@ -69,7 +67,6 @@ order by
 ```
 
 ### Master operator roles
-
 Find master operator roles to understand administrative privileges and identify potential security risks.
 
 ```sql+postgres
@@ -103,7 +100,6 @@ order by
 ```
 
 ### Roles with action creation privileges
-
 Identify roles with action creation privileges to understand who can create executable content and identify potential security concerns.
 
 ```sql+postgres
@@ -137,7 +133,6 @@ order by
 ```
 
 ### Roles with API access
-
 Find roles with API access to understand programmatic access privileges and identify potential security risks.
 
 ```sql+postgres
@@ -167,7 +162,6 @@ order by
 ```
 
 ### Roles with console access
-
 Identify roles with console access to understand administrative interface privileges and identify potential security concerns.
 
 ```sql+postgres
@@ -197,7 +191,6 @@ order by
 ```
 
 ### Roles with query submission privileges
-
 Find roles with query submission privileges to understand who can submit queries and identify potential security risks.
 
 ```sql+postgres
@@ -231,7 +224,6 @@ order by
 ```
 
 ### Roles with custom content access
-
 Identify roles with custom content access to understand content management privileges and identify potential security concerns.
 
 ```sql+postgres
@@ -263,7 +255,6 @@ order by
 ```
 
 ### Recent role modifications
-
 Find recently modified roles to understand current access control changes and identify any new security policies.
 
 ```sql+postgres
@@ -297,7 +288,6 @@ limit 10;
 ```
 
 ### Roles with specific privileges
-
 Search for roles with specific privileges to understand permission patterns and identify potential security issues.
 
 ```sql+postgres

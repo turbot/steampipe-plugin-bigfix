@@ -15,7 +15,6 @@ The `bigfix_site` table in Steampipe provides you with information about sites m
 ## Examples
 
 ### Basic site information
-
 Discover the segments that provide details about sites in your BigFix environment, including their types and display names. This can be useful for auditing site configuration and maintaining security compliance.
 
 ```sql+postgres
@@ -41,7 +40,6 @@ from
 ```
 
 ### Sites by type
-
 Identify sites by their type to understand the distribution of different site types in your environment.
 
 ```sql+postgres
@@ -69,7 +67,6 @@ order by
 ```
 
 ### Sites with specific subscription modes
-
 Find sites with specific subscription modes to understand content distribution and access patterns.
 
 ```sql+postgres
@@ -101,7 +98,6 @@ order by
 ```
 
 ### Sites with permissions
-
 Examine permissions for sites to understand access control and identify any security issues.
 
 ```sql+postgres
@@ -127,7 +123,6 @@ where
 ```
 
 ### Sites with files
-
 Analyze files in sites to understand content distribution and identify any missing or outdated content.
 
 ```sql+postgres
@@ -153,7 +148,6 @@ where
 ```
 
 ### External sites
-
 Focus on external sites to understand external content sources and their configuration.
 
 ```sql+postgres
@@ -187,7 +181,6 @@ order by
 ```
 
 ### Operator sites
-
 Examine operator sites to understand operator-specific content and configuration.
 
 ```sql+postgres
@@ -219,7 +212,6 @@ order by
 ```
 
 ### Master sites
-
 Identify master sites to understand the main content sources and their configuration.
 
 ```sql+postgres
@@ -253,7 +245,6 @@ order by
 ```
 
 ### Sites with global read permissions
-
 Find sites with global read permissions to understand access control and identify potential security risks.
 
 ```sql+postgres

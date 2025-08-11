@@ -15,7 +15,6 @@ The `bigfix_computer` table in Steampipe provides you with information about com
 ## Examples
 
 ### Basic computer information
-
 Discover the segments that provide details about computers in your BigFix environment, including their operating systems and last report times. This can be useful for auditing endpoint health and maintaining security compliance.
 
 ```sql+postgres
@@ -41,7 +40,6 @@ from
 ```
 
 ### Computers with specific operating systems
-
 Identify computers running specific operating systems to help with patch management and security assessments.
 
 ```sql+postgres
@@ -73,7 +71,6 @@ where
 ```
 
 ### Computers that haven't reported recently
-
 Find computers that haven't reported to BigFix recently, which could indicate connectivity issues or security concerns.
 
 ```sql+postgres
@@ -105,7 +102,6 @@ order by
 ```
 
 ### Computers with specific hardware configurations
-
 Analyze computers based on their hardware specifications to identify systems that may need upgrades or have specific requirements.
 
 ```sql+postgres
@@ -141,7 +137,6 @@ order by
 ```
 
 ### Network information for computers
-
 Get detailed network information for all computers to understand network topology and identify potential network issues.
 
 ```sql+postgres
@@ -175,7 +170,6 @@ where
 ```
 
 ### Client settings for computers
-
 Examine client settings for computers to understand configuration and identify any misconfigurations.
 
 ```sql+postgres
@@ -201,7 +195,6 @@ where
 ```
 
 ### Computers by device type
-
 Categorize computers by their device type to understand the distribution of different endpoint types in your environment.
 
 ```sql+postgres
@@ -229,7 +222,6 @@ order by
 ```
 
 ### Computers with specific license types
-
 Identify computers with specific license types to ensure proper licensing compliance.
 
 ```sql+postgres

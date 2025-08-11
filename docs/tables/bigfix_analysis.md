@@ -15,7 +15,6 @@ The `bigfix_analysis` table in Steampipe provides you with information about ana
 ## Examples
 
 ### Basic analysis information
-
 Discover the segments that provide details about analyses in your BigFix environment, including their titles and descriptions. This can be useful for auditing content and maintaining security compliance.
 
 ```sql+postgres
@@ -43,7 +42,6 @@ from
 ```
 
 ### Analyses by category
-
 Identify analyses by their category to understand the distribution of different content types in your environment.
 
 ```sql+postgres
@@ -71,7 +69,6 @@ order by
 ```
 
 ### Analyses with specific relevance
-
 Find analyses with specific relevance expressions to understand content targeting and identify potential issues.
 
 ```sql+postgres
@@ -101,7 +98,6 @@ where
 ```
 
 ### Analyses by source
-
 Analyze analyses by their source to understand content origins and identify any missing or outdated content.
 
 ```sql+postgres
@@ -129,7 +125,6 @@ order by
 ```
 
 ### Analyses in external sites
-
 Focus on analyses in external sites to understand external content sources and their configuration.
 
 ```sql+postgres
@@ -163,7 +158,6 @@ order by
 ```
 
 ### Analyses with properties
-
 Examine properties for analyses to understand configuration and identify any misconfigurations.
 
 ```sql+postgres
@@ -189,7 +183,6 @@ where
 ```
 
 ### Recent analyses
-
 Find recently created or modified analyses to understand current content and identify any new security policies.
 
 ```sql+postgres
@@ -219,7 +212,6 @@ limit 10;
 ```
 
 ### Analyses with MIME fields
-
 Identify analyses with MIME fields to understand content formatting and identify any issues.
 
 ```sql+postgres

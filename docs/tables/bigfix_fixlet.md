@@ -15,7 +15,6 @@ The `bigfix_fixlet` table in Steampipe provides you with information about fixle
 ## Examples
 
 ### Basic fixlet information
-
 Discover the segments that provide details about fixlets in your BigFix environment, including their titles and descriptions. This can be useful for auditing patch management and maintaining security compliance.
 
 ```sql+postgres
@@ -43,7 +42,6 @@ from
 ```
 
 ### Fixlets by category
-
 Identify fixlets by their category to understand the distribution of different patch types in your environment.
 
 ```sql+postgres
@@ -71,7 +69,6 @@ order by
 ```
 
 ### Fixlets with high severity
-
 Find fixlets with high severity to understand critical security patches and identify potential risks.
 
 ```sql+postgres
@@ -105,7 +102,6 @@ order by
 ```
 
 ### Fixlets with specific relevance
-
 Find fixlets with specific relevance expressions to understand patch targeting and identify potential issues.
 
 ```sql+postgres
@@ -135,7 +131,6 @@ where
 ```
 
 ### Fixlets with actions
-
 Analyze fixlets with their associated actions to understand patch deployment and identify any issues.
 
 ```sql+postgres
@@ -165,7 +160,6 @@ where
 ```
 
 ### Fixlets by source
-
 Analyze fixlets by their source to understand patch origins and identify any missing or outdated content.
 
 ```sql+postgres
@@ -193,7 +187,6 @@ order by
 ```
 
 ### Fixlets with large download sizes
-
 Identify fixlets with large download sizes to understand resource requirements and identify potential performance issues.
 
 ```sql+postgres
@@ -227,7 +220,6 @@ order by
 ```
 
 ### Recent fixlets
-
 Find recently created or modified fixlets to understand current patch management and identify any new security policies.
 
 ```sql+postgres
@@ -257,7 +249,6 @@ limit 10;
 ```
 
 ### Fixlets with MIME fields
-
 Identify fixlets with MIME fields to understand content formatting and identify any issues.
 
 ```sql+postgres
@@ -283,7 +274,6 @@ where
 ```
 
 ### Fixlets in external sites
-
 Focus on fixlets in external sites to understand external patch sources and their configuration.
 
 ```sql+postgres
