@@ -12,7 +12,7 @@ import (
 func tableBigFixRole(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_role",
-		Description: "BigFix Role",
+		Description: "BigFix Role.",
 		List: &plugin.ListConfig{
 			Hydrate: listBigFixRoles,
 		},

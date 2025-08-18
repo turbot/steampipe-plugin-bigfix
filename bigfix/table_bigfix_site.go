@@ -14,7 +14,7 @@ import (
 func tableBigFixSite(_ context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_site",
-		Description: "BigFix Site",
+		Description: "BigFix Site.",
 		List: &plugin.ListConfig{
 			Hydrate: listBigFixSites,
 		},

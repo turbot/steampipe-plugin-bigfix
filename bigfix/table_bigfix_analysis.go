@@ -14,7 +14,7 @@ import (
 func tableBigFixAnalysis(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_analysis",
-		Description: "BigFix Analysis",
+		Description: "BigFix Analysis.",
 		List: &plugin.ListConfig{
 			ParentHydrate: listBigFixSites,
 			Hydrate:       listBigFixAnalyses,

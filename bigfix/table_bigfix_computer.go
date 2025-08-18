@@ -14,7 +14,7 @@ import (
 func tableBigFixComputer(_ context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_computer",
-		Description: "BigFix Computer",
+		Description: "BigFix Computer.",
 		List: &plugin.ListConfig{
 			Hydrate: listBigFixComputers,
 		},

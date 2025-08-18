@@ -13,7 +13,7 @@ import (
 func tableBigFixAction(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_action",
-		Description: "BigFix Action",
+		Description: "BigFix Action.",
 		List: &plugin.ListConfig{
 			Hydrate: listBigFixActions,
 		},

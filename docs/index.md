@@ -26,7 +26,7 @@ select
   os,
   last_report_time
 from
-  bigfix_computer
+  bigfix_computer;
 ```
 
 ```
