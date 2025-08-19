@@ -1,7 +1,7 @@
 ---
 title: "Steampipe Table: bigfix_analysis - Query BigFix Analysis using SQL"
 description: "Allows users to query BigFix Analysis data, providing details such as analysis ID, name, title, description, relevance, and more. This table is useful for content management, security audits, and operational troubleshooting."
-folder: "Content Management"
+folder: "Analyses"
 ---
 
 # Table: bigfix_analysis - Query BigFix Analysis using SQL

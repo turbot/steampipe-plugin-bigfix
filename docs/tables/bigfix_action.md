@@ -1,7 +1,7 @@
 ---
 title: "Steampipe Table: bigfix_action - Query BigFix Action using SQL"
 description: "Allows users to query BigFix Action data, providing details such as action ID, name, title, description, relevance, and more. This table is useful for action management, security audits, and operational troubleshooting."
-folder: "Action Management"
+folder: "Actions"
 ---
 
 # Table: bigfix_action - Query BigFix Action using SQL

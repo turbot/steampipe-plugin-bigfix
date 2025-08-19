@@ -1,7 +1,7 @@
 ---
 title: "Steampipe Table: bigfix_computer - Query BigFix Computer using SQL"
 description: "Allows users to query BigFix Computer data, providing details such as computer ID, name, OS, IP address, last report time, and more. This table is useful for endpoint management, security audits, and operational troubleshooting."
-folder: "Computer Management"
+folder: "Computers"
 ---
 
 # Table: bigfix_computer - Query BigFix Computer using SQL

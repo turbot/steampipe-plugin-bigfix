@@ -25,14 +25,6 @@ func tableBigFixProperty(ctx context.Context) *plugin.Table {
 				ShouldIgnoreErrorFunc: shouldIgnoreErrors([]string{"not found"}),
 			},
 		},
-		HydrateConfig: []plugin.HydrateConfig{
-			{
-				Func: getBigFixProperty,
-				IgnoreConfig: &plugin.IgnoreConfig{
-					ShouldIgnoreErrorFunc: shouldIgnoreErrors([]string{"not found"}),
-				},
-			},
-		},
 		Columns: []*plugin.Column{
 			{
 				Name:        "id",

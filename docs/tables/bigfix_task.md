@@ -1,7 +1,7 @@
 ---
 title: "Steampipe Table: bigfix_task - Query BigFix Task using SQL"
 description: "Allows users to query BigFix Task data, providing details such as task ID, name, title, description, relevance, computers, and more. This table is useful for task management, security audits, and operational troubleshooting."
-folder: "Task Management"
+folder: "Tasks"
 ---
 
 # Table: bigfix_task - Query BigFix Task using SQL

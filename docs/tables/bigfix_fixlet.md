@@ -1,7 +1,7 @@
 ---
 title: "Steampipe Table: bigfix_fixlet - Query BigFix Fixlet using SQL"
 description: "Allows users to query BigFix Fixlet data, providing details such as fixlet ID, name, title, description, relevance, actions, and more. This table is useful for fixlet management, security audits, and operational troubleshooting."
-folder: "Fixlet Management"
+folder: "Fixlets"
 ---
 
 # Table: bigfix_fixlet - Query BigFix Fixlet using SQL
