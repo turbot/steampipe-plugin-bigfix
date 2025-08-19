@@ -1,10 +1,10 @@
 ---
-title: "Steampipe Table: bigfix_analysis - Query BigFix Analysis using SQL"
+title: "Steampipe Table: bigfix_analysis - Query BigFix Analyses using SQL"
 description: "Allows users to query BigFix Analysis data, providing details such as analysis ID, name, title, description, relevance, and more. This table is useful for content management, security audits, and operational troubleshooting."
 folder: "Analyses"
 ---
 
-# Table: bigfix_analysis - Query BigFix Analysis using SQL
+# Table: bigfix_analysis - Query BigFix Analyses using SQL
 
 The BigFix Analysis represents a content item in the BigFix platform that defines relevance expressions and properties. It contains information about the analysis's identity, content, relevance, and metadata. This table provides comprehensive visibility into all analyses managed by BigFix.
 

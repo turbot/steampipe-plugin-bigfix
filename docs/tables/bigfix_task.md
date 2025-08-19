@@ -1,10 +1,10 @@
 ---
-title: "Steampipe Table: bigfix_task - Query BigFix Task using SQL"
+title: "Steampipe Table: bigfix_task - Query BigFix Tasks using SQL"
 description: "Allows users to query BigFix Task data, providing details such as task ID, name, title, description, relevance, computers, and more. This table is useful for task management, security audits, and operational troubleshooting."
 folder: "Tasks"
 ---
 
-# Table: bigfix_task - Query BigFix Task using SQL
+# Table: bigfix_task - Query BigFix Tasks using SQL
 
 The BigFix Task represents an executable content item in the BigFix platform that defines actions to be performed on endpoints. It contains information about the task's identity, content, relevance, target computers, and execution details. This table provides comprehensive visibility into all tasks managed by BigFix.
 

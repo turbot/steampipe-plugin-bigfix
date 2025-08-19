@@ -1,10 +1,10 @@
 ---
-title: "Steampipe Table: bigfix_computer - Query BigFix Computer using SQL"
+title: "Steampipe Table: bigfix_computer - Query BigFix Computers using SQL"
 description: "Allows users to query BigFix Computer data, providing details such as computer ID, name, OS, IP address, last report time, and more. This table is useful for endpoint management, security audits, and operational troubleshooting."
 folder: "Computers"
 ---
 
-# Table: bigfix_computer - Query BigFix Computer using SQL
+# Table: bigfix_computer - Query BigFix Computers using SQL
 
 The BigFix Computer represents an endpoint device managed by the BigFix platform. It contains information about the computer's identity, operating system, network configuration, hardware details, and client settings. This table provides comprehensive visibility into all computers managed by BigFix.
 

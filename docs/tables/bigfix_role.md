@@ -1,10 +1,10 @@
 ---
-title: "Steampipe Table: bigfix_role - Query BigFix Role using SQL"
+title: "Steampipe Table: bigfix_role - Query BigFix Roles using SQL"
 description: "Allows users to query BigFix Role data, providing details such as role ID, name, permissions, interface logins, and more. This table is useful for role management, access control audits, and security troubleshooting."
 folder: "Roles"
 ---
 
-# Table: bigfix_role - Query BigFix Role using SQL
+# Table: bigfix_role - Query BigFix Roles using SQL
 
 The BigFix Role represents a user role in the BigFix platform that defines permissions and access rights. It contains information about the role's identity, privileges, interface access, and security settings. This table provides comprehensive visibility into all roles managed by BigFix.
 

@@ -1,10 +1,10 @@
 ---
-title: "Steampipe Table: bigfix_action - Query BigFix Action using SQL"
+title: "Steampipe Table: bigfix_action - Query BigFix Actions using SQL"
 description: "Allows users to query BigFix Action data, providing details such as action ID, name, title, description, relevance, and more. This table is useful for action management, security audits, and operational troubleshooting."
 folder: "Actions"
 ---
 
-# Table: bigfix_action - Query BigFix Action using SQL
+# Table: bigfix_action - Query BigFix Actions using SQL
 
 The BigFix Action represents an executable item in the BigFix platform that defines specific operations to be performed on endpoints. It contains information about the action's identity, content, relevance, and execution details. This table provides comprehensive visibility into all actions managed by BigFix.
 

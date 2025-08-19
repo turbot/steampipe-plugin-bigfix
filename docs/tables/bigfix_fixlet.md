@@ -1,10 +1,10 @@
 ---
-title: "Steampipe Table: bigfix_fixlet - Query BigFix Fixlet using SQL"
+title: "Steampipe Table: bigfix_fixlet - Query BigFix Fixlets using SQL"
 description: "Allows users to query BigFix Fixlet data, providing details such as fixlet ID, name, title, description, relevance, actions, and more. This table is useful for fixlet management, security audits, and operational troubleshooting."
 folder: "Fixlets"
 ---
 
-# Table: bigfix_fixlet - Query BigFix Fixlet using SQL
+# Table: bigfix_fixlet - Query BigFix Fixlets using SQL
 
 The BigFix Fixlet represents a content item in the BigFix platform that defines security patches, software updates, or configuration changes. It contains information about the fixlet's identity, content, relevance, associated actions, and deployment details. This table provides comprehensive visibility into all fixlets managed by BigFix.
 

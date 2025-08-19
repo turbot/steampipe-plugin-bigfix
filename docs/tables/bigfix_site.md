@@ -1,10 +1,10 @@
 ---
-title: "Steampipe Table: bigfix_site - Query BigFix Site using SQL"
+title: "Steampipe Table: bigfix_site - Query BigFix Sites using SQL"
 description: "Allows users to query BigFix Site data, providing details such as site name, type, display name, permissions, files, and more. This table is useful for site management, security audits, and operational troubleshooting."
 folder: "Sites"
 ---
 
-# Table: bigfix_site - Query BigFix Site using SQL
+# Table: bigfix_site - Query BigFix Sites using SQL
 
 The BigFix Site represents a collection of content and policies in the BigFix platform. It contains information about the site's identity, type, permissions, files, and configuration. This table provides comprehensive visibility into all sites managed by BigFix.
 

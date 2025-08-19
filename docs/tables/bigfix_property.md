@@ -1,10 +1,10 @@
 ---
-title: "Steampipe Table: bigfix_property - Query BigFix Property using SQL"
+title: "Steampipe Table: bigfix_property - Query BigFix Properties using SQL"
 description: "Allows users to query BigFix Property data, providing details such as property ID, name, definition, and more. This table is useful for property management, configuration audits, and operational troubleshooting."
 folder: "Computers"
 ---
 
-# Table: bigfix_property - Query BigFix Property using SQL
+# Table: bigfix_property - Query BigFix Properties using SQL
 
 The BigFix Property represents a configuration item in the BigFix platform that defines custom properties and their values. It contains information about the property's identity, definition, and usage. This table provides comprehensive visibility into all properties managed by BigFix.
 
