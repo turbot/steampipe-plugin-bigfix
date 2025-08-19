@@ -14,7 +14,7 @@ import (
 func tableBigFixTask(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_task",
-		Description: "BigFix Task.",
+		Description: "BigFix Task contains multi-step deployment workflows and complex remediation procedures with coordinated fixlets and actions for sophisticated deployments.",
 		List: &plugin.ListConfig{
 			ParentHydrate: listBigFixSites,
 			Hydrate:       listBigFixTasks,

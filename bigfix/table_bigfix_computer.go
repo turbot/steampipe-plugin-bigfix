@@ -14,7 +14,7 @@ import (
 func tableBigFixComputer(_ context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_computer",
-		Description: "BigFix Computer.",
+		Description: "BigFix Computer contains endpoint inventory data including system specifications, network information, OS details, hardware configuration, and reporting status for managed computers.",
 		List: &plugin.ListConfig{
 			Hydrate: listBigFixComputers,
 		},

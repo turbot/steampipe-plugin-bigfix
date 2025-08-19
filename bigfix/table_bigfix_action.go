@@ -13,7 +13,7 @@ import (
 func tableBigFixAction(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_action",
-		Description: "BigFix Action.",
+		Description: "BigFix Action contains automated remediation actions with scripts, relevance expressions, success criteria, and deployment settings for endpoint management.",
 		List: &plugin.ListConfig{
 			Hydrate: listBigFixActions,
 		},

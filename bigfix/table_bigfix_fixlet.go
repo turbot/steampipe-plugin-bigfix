@@ -13,7 +13,7 @@ import (
 func tableBigFixFixlet(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_fixlet",
-		Description: "BigFix Fixlet.",
+		Description: "BigFix Fixlet contains security patches, software updates, and configuration changes with metadata, relevance expressions, and categories for deployment.",
 		List: &plugin.ListConfig{
 			ParentHydrate: listBigFixSites,
 			Hydrate:       listBigFixFixlets,

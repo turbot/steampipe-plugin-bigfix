@@ -12,7 +12,7 @@ import (
 func tableBigFixRole(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_role",
-		Description: "BigFix Role.",
+		Description: "BigFix Role contains user permissions and access control configurations with role definitions and privilege settings for security management.",
 		List: &plugin.ListConfig{
 			Hydrate: listBigFixRoles,
 		},

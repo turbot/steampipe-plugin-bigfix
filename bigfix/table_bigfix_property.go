@@ -12,7 +12,7 @@ import (
 func tableBigFixProperty(ctx context.Context) *plugin.Table {
 	return &plugin.Table{
 		Name:        "bigfix_property",
-		Description: "BigFix Property.",
+		Description: "BigFix Property contains custom and system defined properties and attributes with definitions and reservation status for extending BigFix functionality and data collection.",
 		List: &plugin.ListConfig{
 			Hydrate: listBigFixProperties,
 		},
