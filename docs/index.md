@@ -2,7 +2,7 @@
 organization: Turbot
 category: ["security", "endpoint management"]
 icon_url: "/images/plugins/turbot/bigfix.svg"
-brand_color: "#FF6B35"
+brand_color: "#17707F"
 display_name: "BigFix"
 name: "bigfix"
 description: "Steampipe plugin for querying computers, sites, analyses, tasks, actions, fixlets, properties, and roles from BigFix."
