@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/turbot/steampipe-plugin-bigfix/api/model"
-	"github.com/turbot/steampipe-plugin-sdk/v5/plugin"
+	"github.com/turbot/steampipe-plugin-sdk/v6/plugin"
 	"resty.dev/v3"
 )
 
@@ -40,7 +40,7 @@ func (as *ActionService) List(ctx context.Context) ([]model.Action, error) {
 	}
 
 	if resp.Body != nil {
-		defer resp.Body.Close()
+		defer func() { _ = resp.Body.Close() }()
 	}
 
 	// Read the response body
@@ -78,7 +78,7 @@ func (as *ActionService) Get(ctx context.Context, actionID int) (*model.Action, 
 	}
 
 	if resp.Body != nil {
-		defer resp.Body.Close()
+		defer func() { _ = resp.Body.Close() }()
 	}
 
 	// Read the response body

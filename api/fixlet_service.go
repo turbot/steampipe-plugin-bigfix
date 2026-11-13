@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	"github.com/turbot/steampipe-plugin-bigfix/api/model"
-	"github.com/turbot/steampipe-plugin-sdk/v5/plugin"
+	"github.com/turbot/steampipe-plugin-sdk/v6/plugin"
 	"resty.dev/v3"
 )
 
@@ -54,7 +54,7 @@ func (fs *FixletService) List(ctx context.Context, siteName string, siteType str
 	}
 
 	if resp.Body != nil {
-		defer resp.Body.Close()
+		defer func() { _ = resp.Body.Close() }()
 	}
 
 	// Read the response body
@@ -109,7 +109,7 @@ func (fs *FixletService) Get(ctx context.Context, siteName string, siteType stri
 	}
 
 	if resp.Body != nil {
-		defer resp.Body.Close()
+		defer func() { _ = resp.Body.Close() }()
 	}
 
 	// Read the response body

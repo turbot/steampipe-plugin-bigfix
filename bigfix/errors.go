@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/turbot/steampipe-plugin-sdk/v5/plugin"
+	"github.com/turbot/steampipe-plugin-sdk/v6/plugin"
 )
 
 // shouldIgnoreErrors returns an ErrorPredicate for BigFix API calls

@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	"github.com/turbot/steampipe-plugin-bigfix/api/model"
-	"github.com/turbot/steampipe-plugin-sdk/v5/plugin"
+	"github.com/turbot/steampipe-plugin-sdk/v6/plugin"
 	"resty.dev/v3"
 )
 
@@ -87,7 +87,7 @@ func (cs *ComputerService) Get(ctx context.Context, id int) (*model.Computer, er
 		return nil, fmt.Errorf("failed to fetch computer %d: %w", id, err)
 	}
 	if resp.Body != nil {
-		defer resp.Body.Close()
+		defer func() { _ = resp.Body.Close() }()
 	}
 
 	// Read the response body
